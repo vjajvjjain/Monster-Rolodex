@@ -1,5 +1,12 @@
 .App {
   text-align: center;
+  padding: 30px;
+}
+
+h1 {
+  font-family: "Bigelow Rules", cursive;
+  font-size: 72px;
+  color: #0ccac4;
 }
 
 .App-logo {
@@ -10,6 +17,7 @@
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+    -webkit-animation: App-logo-spin infinite 20s linear;
   }
 }
 
